@@ -8,9 +8,9 @@ import time
 
 # — 設定 —
 
-BLOG_LIST_URL = “https://www.hinatazaka46.com/s/official/diary/member/list”
-BLOG_BASE_URL = “https://www.hinatazaka46.com”
-LAST_FETCHED_FILE = “last_fetched.txt”
+BLOG_LIST_URL = "https://www.hinatazaka46.com/s/official/diary/member/list"
+BLOG_BASE_URL = "https://www.hinatazaka46.com”
+LAST_FETCHED_FILE = "last_fetched.txt”
 SLACK_WEBHOOK_URL = os.environ[“SLACK_WEBHOOK_URL”]
 GEMINI_API_KEY = os.environ[“GEMINI_API_KEY”]
 BUFFER_MINUTES = 10  # 取りこぼし防止バッファ
