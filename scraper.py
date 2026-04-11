@@ -16,7 +16,7 @@ BUFFER_MINUTES = 10
 
 # --- Gemini初期化 ---
 genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel("gemini-2.0-flash")
+model = genai.GenerativeModel("gemini-2.5-flash-preview-04-17")
 
 
 def load_last_fetched() -> datetime:
